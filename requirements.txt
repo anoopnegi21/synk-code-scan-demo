@@ -5,3 +5,5 @@ transformers==
 tensorflow==
 opencv==
 sklearn==
+scikit-learn>=0.24.2 # not directly required, pinned by Snyk to avoid a vulnerability
+scipy>=1.10.0rc1 # not directly required, pinned by Snyk to avoid a vulnerability
